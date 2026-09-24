@@ -1,0 +1,13 @@
+-- Practice 3: Table inheritance
+-- Create vehicle(vehicle_id INTEGER, make VARCHAR(30), model VARCHAR(30)).
+-- Create car(passenger_capacity INTEGER) INHERITS(vehicle).
+-- Create truck(payload_capacity NUMERIC(8,2)) INHERITS(vehicle).
+-- Insert 1 vehicle, 2 cars, and 2 trucks.
+-- Compare:
+-- SELECT * FROM vehicle;
+-- SELECT * FROM ONLY vehicle;
+-- SELECT * FROM car;
+-- SELECT * FROM truck;
+-- Question: Why do the first two vehicle queries return different row counts?
+
+-- Your SQL:
